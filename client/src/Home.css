@@ -1,0 +1,100 @@
+/* Home Page Styling */
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url("https://source.unsplash.com/1600x900/?shopping,ecommerce") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .overlay {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: hwb(180 14% 42% / 0.6);
+    top: 0;
+    left: 0;
+  }
+
+  .home-content {
+    position: relative;
+    max-width: 600px;
+    padding: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+  } 
+/*   
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+   */
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    line-height: 1.5;
+  }
+  
+  .shop-now {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    color: white;
+    background: #ff6600;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(255, 102, 0, 0.3);
+  }
+  
+  .shop-now:hover {
+    background: #ff4500;
+    box-shadow: 0 8px 20px rgba(255, 69, 0, 0.4);
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+
+  /* h2 tag css */
+
+
+  .home-container {
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f9fa;
+  }
+  
+  .home-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  }
+  
+  h1:hover {
+    color: #eaff61;
+    text-shadow: 4px 4px 10px rgba(255, 111, 97, 0.5);
+  }
+  
