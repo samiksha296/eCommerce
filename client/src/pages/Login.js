@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const Login = () => {
+  const Login = () => {
   const [user, setUser] = useState({ email: "", password: "" });
   const navigate = useNavigate();
 
@@ -22,7 +22,6 @@ const Login = () => {
       alert(" Login Failed! Check your email or password.");
     }
   };
-
   return (
     <div style={{ maxWidth: "500px", margin: "auto", padding: "20px" }}>
       <h2> Login</h2>
